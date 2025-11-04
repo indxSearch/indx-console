@@ -36,13 +36,11 @@ namespace IndxConsoleAppJson
             engine.GetField("Year_of_Release")!.Facetable = true;
 
             // LOAD JSON
-            engine.Load(fstream, null);
+            engine.Load(fstream);
             fstream.Close(); // close file stream
 
             // RUN INDEXING
-            var indexMonitor = new ProcessMonitor();
-            engine.Index(indexMonitor);
-            indexMonitor.WaitForCompletion();
+            engine.Index();
 
 
             Console.Clear();
