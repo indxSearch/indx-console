@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="IndxSearchLib" Version="4.1.0-alpha19" />
+    <PackageReference Include="IndxSearchLib" Version="4.1.0-beta1" />
   </ItemGroup>
 
 </Project>

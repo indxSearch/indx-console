@@ -21,7 +21,7 @@ namespace IndxConsoleAppJson
             FileStream fstream = File.Open(file, FileMode.Open, FileAccess.Read);
 
             // INITIALIZE
-            engine.Init(fstream, null);
+            engine.Init(fstream);
 
             //
             // SETUP FIELDS
