@@ -27,11 +27,11 @@ namespace IndxConsoleAppJson
             // SETUP FIELDS
             //
 
-            engine.GetField("Movie_Name")!.Indexable = true;
+            engine.GetField("Movie_Name")!.Searchable = true;
             engine.GetField("Movie_Name")!.Weight = Weight.High;
-            engine.GetField("Stars")!.Indexable = true;
+            engine.GetField("Stars")!.Searchable = true;
             engine.GetField("Stars")!.Weight = Weight.Low;
-            engine.GetField("Description")!.Indexable = true;
+            engine.GetField("Description")!.Searchable = true;
             engine.GetField("Description")!.Weight = Weight.Med;
             engine.GetField("Year_of_Release")!.Facetable = true;
 
