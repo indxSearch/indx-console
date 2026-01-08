@@ -52,7 +52,7 @@ namespace IndxConsoleAppJson
                 // SET UP SEARCH QUERY
                 //
 
-                Console.Write("🔍 Search: ");
+                Console.Write("🔍 Search for a movie: ");
                 var text = Console.ReadLine() ?? ""; // pattern to be searched for
 
                 int num = 10;
