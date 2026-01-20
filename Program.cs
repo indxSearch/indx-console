@@ -113,7 +113,7 @@ namespace IndxConsoleAppJson
                 // META INFORMATION
                 //
 
-                Console.WriteLine($"\nExact hits found: {result.TruncationIndex + 1}"); // this will be 0 if query has large typos
+                Console.WriteLine($"\nCoverage matches found: {result.TruncationIndex + 1}"); // this will be 0 if query has large typos
                 Console.WriteLine("Version: " + engine.Status.Version);
 
                 // Continue prompt
